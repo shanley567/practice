@@ -21,4 +21,4 @@ def word_to_pdf(folder_path):
           except Exception as e:
               print(f"Error converting '{filename}': {e}")
 
-  print("Conversion completed.")
+  print("All word to PDF conversions completed.")

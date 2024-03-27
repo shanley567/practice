@@ -10,10 +10,10 @@ from add_page_numbers_to_pdf import add_page_numbers
 
 
 
-folder_path = r"C:\Users\js105\Documents\Work\Dad's Work"
+folder_path = r"C:\Users\js105\Documents\Work\Dad's Work"   
 
-# word_to_pdf(folder_path)
+word_to_pdf(folder_path)
 
-# merge_pdfs(folder_path)
+merge_pdfs(folder_path)
 
 add_page_numbers(folder_path)

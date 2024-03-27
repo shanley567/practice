@@ -39,8 +39,8 @@ def detect_paper_size(pdf_file):
 
   return page_sizes
 
-# Example usage
-pdf_file = r"C:\Users\js105\Documents\Work\Dad's Work\Merged File\Merged PDF.pdf"  # Replace with your PDF file path
-page_sizes = detect_paper_size(pdf_file)
-# print(type(page_sizes))
-print(*page_sizes, sep="\n")
+# # Example usage
+# pdf_file = r"C:\Users\js105\Documents\Work\Dad's Work\Merged File\Merged PDF.pdf"  # Replace with your PDF file path
+# page_sizes = detect_paper_size(pdf_file)
+# # print(type(page_sizes))
+# print(*page_sizes, sep="\n")

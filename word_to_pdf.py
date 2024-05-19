@@ -17,7 +17,7 @@ def word_to_pdf(folder_path):
           # Convert the Word document to PDF using docx2pdf
           try:
               convert(file_path, os.path.join(folder_path, pdf_filename))
-              print(f"Converted '{filename}' to '{pdf_filename}' successfully!")
+              print(f"Converted '{filename}' successfully!")
           except Exception as e:
               print(f"Error converting '{filename}': {e}")
 

@@ -6,6 +6,7 @@
 
 '''
 from word_to_pdf import word_to_pdf
+from jpeg_to_pdf import convert_image_to_pdfs
 from merge_pdfs import merge_pdfs
 from add_page_numbers_to_pdf import add_page_numbers
 
@@ -13,7 +14,6 @@ from add_page_numbers_to_pdf import add_page_numbers
 folder_path = r"C:\Users\js105\Documents\Work\Dad's Work"   
 
 word_to_pdf(folder_path)
-
+convert_image_to_pdfs(folder_path)
 merge_pdfs(folder_path)
-
 add_page_numbers(folder_path)
